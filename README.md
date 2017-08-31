@@ -1,4 +1,5 @@
-# Interactive Resume - Second Projects in the Frond-end Web Developer Nanodegree
+# Interactive Resume 
+## Second Projects in the Frond-end Web Developer Nanodegree
 
 # Project Details
 ## How do I complete this project?
