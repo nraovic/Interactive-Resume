@@ -1,0 +1,392 @@
+/*** GENERAL ***/
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  background-color: #fff;
+  color: #101010;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a, a:hover, a:active, a:focus {
+  text-decoration: none;
+  color: inherit;
+}
+
+ a:hover {
+   font-weight: bold;
+ }
+
+#main {
+	padding-top: 50px;
+}
+
+.title {
+  padding-bottom: 30px;
+  color: #2a2a2a;
+}
+
+.grayish {
+  color: #2a2a2a;
+}
+
+.font-dancing {
+  font-family: 'Dancing Script', cursive;
+}
+
+/***NAVBAR***/
+.navbar {
+  margin: 0;
+  background-image: linear-gradient(to right, #cdc9c9, #fff);
+}
+
+.navbar-brand {
+  padding: 0;
+  color: #fff !important;
+}
+
+/***HEADER***/
+#header {
+  padding: 40px 0;
+}
+
+#name {
+  display: inline;
+  margin-right: 15px;
+  font-size: 2.5em;
+}
+
+.role {
+  display: inline;
+  font-size: 1.5em;
+}
+
+.name-role {
+  padding-bottom: 50px;
+  color: #2a2a2a;
+}
+
+.message {
+  padding-bottom: 50px;
+}
+
+.picture {
+  padding-right: 50px;
+ }
+
+.biopic {
+  border-radius: 50%;
+  border: 3px solid #fff;
+  width: 150px;
+  height: 150px;
+}
+
+#topContacts {
+  line-height: 2;
+}
+
+.fa {
+  color: #545454;
+}
+
+#topContacts li i {
+  width: 30px;
+}
+
+#topContacts li span {
+  text-align: right;
+  width: 200px;
+}
+
+.blockquote {
+  border-left: 2px solid #101010;
+  margin: 0;
+  display: inline-block;
+  font-size: 1.2em;
+}
+
+.blockquote-footer {
+  color: #101010;
+}
+
+#skills {
+  list-style: none;
+  padding: 0;
+  padding-bottom: 50px;
+}
+
+#skills li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.skillset-unit {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.skills {
+	margin-top: 90px;
+}
+
+.skills h3 {
+  padding-bottom : 10px;  
+}
+
+.skill-glance {
+  padding-right: 5px;
+}
+
+.badge {
+  background-color: #856363;
+}
+
+.skillset {
+  padding-bottom: 20px;
+}
+
+.skillset-name {
+  padding-bottom: 10px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+/***WORK***/
+#workExperience {
+  background-color: #945d60;
+  padding: 40px 0;
+}
+
+.work-entry:nth-of-type(1) {
+  padding-bottom: 20px;
+}
+
+.work-entry .location-text {
+  padding-bottom: 10px;
+}
+
+.work-entry {
+  padding: 15px;
+  border: 2px dotted #fff;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.work-entry:hover {
+  box-shadow: inset 0 0 20px #fff;
+}
+
+.work-entry p {
+  display: inline;
+}
+
+/***PROJECTS***/
+#projects {
+  padding: 40px 0;
+}
+
+.project-entry {
+  margin-bottom: 30px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px dotted #945d60;
+}
+
+.project-entry:hover {
+  box-shadow: inset 0 0 20px #945d60;
+}
+
+.project-entry .date-text {
+  padding-bottom: 10px;
+}
+
+.project-img {
+  vertical-align: top;
+  height: 300px;
+  width: 450px;
+  border-radius: 5px;
+  margin-right: 50px;
+}
+
+.chart {
+  display: inline-block;
+}
+
+/***EDUCATION***/
+#education {
+  padding: 40px 0;
+  background-color: #945d60;
+}
+
+.education-entry {
+  margin-bottom: 30px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px dotted #fff;
+}
+
+.education-entry:hover {
+  box-shadow: inset 0 0 20px #fff;
+}
+
+.online-class {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.class-url {
+  padding-bottom: 20px;
+}
+
+.fa-star {
+  padding-right: 5px;
+  color: #ffb90f;	
+}
+
+/***MAP***/
+#map {
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#mapDiv {
+  padding: 40px 0;
+  background-image: url(../images//map-large.jpeg);
+  background-size: cover;
+}
+
+.map-title {
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+/***FOOTER***/
+#lets-connect {
+  padding: 20px 0;
+  background-image: linear-gradient(to right, #8eafde, #d9e3ec);
+}
+
+#footerContacts li{
+  display: inline-flex;
+  padding-right: 30px;
+}
+
+#footerContacts i {
+  padding-right: 10px;
+  color: #000;
+}
+
+/***MEDIA QUERIES***/
+@media (max-width: 992px) {
+
+  /***NAVBAR***/
+  .navbar {
+    height: 60px;
+  }
+  .navbar-nav {
+    margin-top: 16px;
+  }
+  .navbar-brand {
+    padding-top: 5px;
+  }
+  .nav-item {
+    width: 200px;
+    background-color:rgba(205, 201, 201, 0.8);
+    color: #000;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+  }
+
+  /***PROJECTS***/
+  .project-img {
+    width: 100%;
+    height: 100%;
+    margin-right: 0;
+  }
+  .chart {
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  /***PROJECTS***/
+  .project-img {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .chart {
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  svg {
+    width: 60%;
+    height: 60%;
+  }
+}
+
+@media (max-width: 575px) {
+  .col-xxs-12 {
+    width: 100%;
+  }
+  
+  #name, .role {
+    display: block;
+    text-align: center;
+    padding: 0;
+  }
+
+  .name-role {
+    padding-bottom: 20px;
+  }
+
+  #name {
+    font-size: 2em;
+  }
+
+  .picture {
+    padding-right: 15px;
+  }
+
+  .picture, .contact-details, .message {
+    text-align: center!important;
+    padding-bottom: 20px;
+  }
+
+  .blockquote {
+    padding-left: 0;
+    border: none;
+  }
+
+  .skills {
+  	  margin-top: 30px;
+  }
+
+  /***MAP***/
+  #mapDiv {
+    background-image: url(../images/map-small.jpeg);
+    background-size: cover;
+  }
+
+}
